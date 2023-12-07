@@ -1,0 +1,14 @@
+#Password=<< Existing password/certificate removed on export >>
+#
+#Mon Dec 04 19:15:10 UTC 2023
+Type=HTTP
+HTML5.Timeout=60000
+HTML5.DynamicDestination=true
+Authentication=BasicAuthentication
+WebIDEUsage=odata_gen
+Name=TECHED_BUILDAPPS_S4
+WebIDEEnabled=true
+ProxyType=Internet
+URL=https\://<S4 hostname>:<port if necessary>/sap/opu/odata/sap/API_BUSINESS_PARTNER
+sap-client=urn\:oasis\:names\:tc\:SAML\:1.1\:nameid-format\:emailAddress
+User=<USER>
