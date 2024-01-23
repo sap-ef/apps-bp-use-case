@@ -50,16 +50,36 @@
   <br><img src="resources/booster.png" width="50%" height="50%">
   - On the SAP BTP Cockpit select Boosters
   - Search for "build apps"
-  - Select the quick account setup
+  - Select: Get Started with SAP Build Apps - Detailed Account Setup
 - On the Booster screen you are going to see the details of the Booster. Press Start.
 - A new dialog will popup to guide you on the creation of the subaccount and services.
-  <br><img src="resources/booster2.png" width="70%" height="70%">
 
-  - 1: Check if you have the authorization, IAS and entitlements.
-  - 2: Press edit.
-  - 3: Change the display name.
-  - 4: Change the subdomain. **This information can't be changed after!**
-  - 5: Choose your Plan.
+  - 1: **Check Prerequisites**
+    <br><img src="resources/boosterw1.png" width="70%" height="70%">
+    - Check if you have the authorization, IAS and entitlements.
+    - Press Next.
+  - 2: **Select Scenario**
+      <br><img src="resources/boosterw2.png" width="70%" height="70%">
+      - Select if you want to create a new Subaccount or use a existing one.
+      - Press Next.
+  - 3: **Configure Subaccount**
+        <br><img src="resources/boosterw2.png" width="70%" height="70%">
+    - Fill Subacoun Name
+    - Choose Provider
+    - Choose Region (*This service is not available in every region, maybe it won't list your existing subaccount*)
+    - Subdomain (*This information can't be changed so it is important to choose something meaningful*)
+    - Press Next.
+  - 4: **Add Users**
+    <br><img src="resources/boosterw2.png" width="70%" height="70%">
+    - Choose the IAS if you have more than one
+    - Add the emails of administrators
+    - Add the emails of developers
+    - Press Next.
+  - 5: **Review**
+      <br><img src="resources/boosterw2.png" width="70%" height="70%">
+    - Review the informations provided
+    - Press Finish
+
 
 - The Booster will do all the necessary configurations for the use case implementation.
 - _Important Reminder_ SAP Build Apps is not available in every region. So it is important to check if it is available on the region you want to create.
