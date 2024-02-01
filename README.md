@@ -210,9 +210,25 @@ Now it's time to start to focus on the UI. The project has already access to the
    <br><img src="resources/wz-update.gif" width="50%" height="50%">
    1. On Actions -> press Update content
 1. Go to Content Manager:
-   <br><img src="resources/wz-create-content.gif" width="50%" height="50%"> 1. Click on Content Explorer 1. Select HTML5 Apps 1. Select the App Business Partner 1. Click on Add 1. Go back to the Content Manager 1. Click on Create and select Group 1. Fill the title and select the BP app 1. Click Save 1. Click on Create again and select role 1. Fill the title and add the BP app 1. Click Save
+   <br><img src="resources/wz-create-content.gif" width="50%" height="50%"> 
+   1. Click on Content Explorer 
+   1. Select HTML5 Apps 
+   1. Select the App Business Partner 
+   1. Click on Add 
+   1. Go back to the Content Manager 
+   1. Click on Create and select Group 
+   1. Fill the title and select the BP app 
+   1. Click Save 
+   1. Click on Create again and select role 
+   1. Fill the title and add the BP app 
+   1. Click Save
 1. Go to SAP BTP Cockpit:
-   <br><img src="resources/wz-role.gif" width="50%" height="50%"> 1. Go to Security -> Role Collections 1. Select the role you created on work zone 1. Click on edit 1. Add you user on Users 1. Click Save
+   <br><img src="resources/wz-role.gif" width="50%" height="50%"> 
+   1. Go to Security -> Role Collections 
+   1. Select the role you created on work zone 
+   1. Click on edit 
+   1. Add you user on Users 
+   1. Click Save
 1. On the SAP Build Work Zone:
    <br><img src="resources/wz-create-site.gif" width="50%" height="50%">
    1. Go to Site Directory
