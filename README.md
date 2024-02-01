@@ -223,7 +223,7 @@ Now it's time to start to focus on the UI. The project has already access to the
    1. Fill the title and add the BP app 
    1. Click Save
 1. Go to SAP BTP Cockpit:
-   <br><img src="resources/wz-role.gif" width="50%" height="50%"> 
+   <br><img src="resources/wz-role.gif" width="50%" height="50%">
    1. Go to Security -> Role Collections 
    1. Select the role you created on work zone 
    1. Click on edit 
