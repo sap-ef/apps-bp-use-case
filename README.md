@@ -63,20 +63,20 @@
       - Select if you want to create a new Subaccount or use a existing one.
       - Press Next.
   - 3: **Configure Subaccount**
-        <br><img src="resources/boosterw2.png" width="70%" height="70%">
+        <br><img src="resources/boosterw3.png" width="70%" height="70%">
     - Fill Subacoun Name
     - Choose Provider
     - Choose Region (*This service is not available in every region, maybe it won't list your existing subaccount*)
     - Subdomain (*This information can't be changed so it is important to choose something meaningful*)
     - Press Next.
   - 4: **Add Users**
-    <br><img src="resources/boosterw2.png" width="70%" height="70%">
+    <br><img src="resources/boosterw4.png" width="70%" height="70%">
     - Choose the IAS if you have more than one
     - Add the emails of administrators
     - Add the emails of developers
     - Press Next.
   - 5: **Review**
-      <br><img src="resources/boosterw2.png" width="70%" height="70%">
+      <br><img src="resources/boosterw5.png" width="70%" height="70%">
     - Review the informations provided
     - Press Finish
 
