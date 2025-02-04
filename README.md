@@ -116,89 +116,82 @@ You can download and import on the lobby the complete version [Business Partner.
   - Fill the Project Name and click Create.
     <br><img src="resources/apps-build-project.png" width="30%" height="30%">
 
-### Step 6.1: Add Authentication
+### Step 6.1: Authentication
 
-<img src="resources/apps-add-auth.gif" width="50%" height="50%">
+<img src="resources/apps-add-auth.png" width="50%" height="50%">
 
-1. On the project page select Auth.
-2. Click on Enable Authentication
-3. Select SAP BTP Authentication
-4. Click OK
-5. Save
+By default the authentication is enabled. You can check this on:
+
+1. Click on App Settings.
+2. Select Authentication
+3. Show the selected authentication method
 
 ### Step 6.2: Add Data
 
-<img src="resources/apps-add-data.gif" width="50%" height="50%">
+<img src="resources/apps-add-data-v2.gif" width="50%" height="50%">
 
-1. Click on Data Tab and click on Add Integration
+1. Click on Integrations Tab and click on Add Integration
 2. Click on BTP Destinations
 3. Select the destination
-4. Select the entity
-5. Click on INSTALL INTEGRATION
+4. Click on INSTALL INTEGRATION
+5. Select the entity
 6. Click on ENABLE DATA ENTITY
 7. Save
 
-### Step 6.3: Create Data Variables on the Page
+### Step 6.3: Design the User Interface
 
-Now it's time to start to focus on the UI. The project has already access to the destination, but the page where I am going to list the data not yet.
-<br><img src="resources/apps-page-data.gif" width="50%" height="50%">
+<img src="resources/apps-page-list-v2.gif" width="50%" height="50%">
 
-1. On the page view switch to VARIABLES
-2. Select DATA VARIABLES
-3. Click on ADD DATA VARIABLE
-4. Select the variable created on the previous step
-5. Define the size of the page:
-   1. Click on Paging
-   2. Select Object with properties
-   3. Click below the Page size
-   4. Select the Static number
-   5. Define the size of the page, in this case 15.
-   6. Click SAVE
-6. Click SAVE
-
-### Step 6.4: Design the User Interface
-
-<img src="resources/apps-page-list.gif" width="50%" height="50%">
-
-- Back to the view
+- Back to the User Interface
 - Change the Title 1
 - Remove the Text 1
-- Add List Item
-- Define Repeat with the data you've defined on the previous step
-- Change the primary label to BusinessPartnerName, get data from Data item in repeat
-- Change the secondary label to BusinessPartner, get data from Data item in repeat
+- Click on MARKETPLACE
+- Find basic list and install it
+- Drag the Basic list to the UI
+- Click configure to setup the compoment
+- Select the BP entity
+- Select the fields you want to show
 - Save
 
-### Step 6.5: Ready for the first test
+### Step 6.4: Ready for the first test
 
-<img src="resources/apps-page-preview.gif" width="50%" height="50%">
+<img src="resources/apps-page-preview-v2.gif" width="50%" height="50%">
 
-- Click on LAUNCH
+- Click on Preview
 - Click on Open preview portal
-- On the new tab click on Open web preview
 - Click OPEN on your app
 - You should see your app running
 
-### Step 6.5: Build & Deploy the app
+### Step 6.4: Remove Navigation Header & Menu
+
+<img src="resources/apps-build-page-navigation.gif" width="50%" height="50%">
+
+- Click on App Settings
+- Click on Navigation
+- Let the Navigation header bar: Not enabled
+- Set Navigation menu: No
+- Save
+
+### Step 6.6: Build & Deploy the app
 
 - Build the App
-  <br><img src="resources/apps-build-build.gif" width="50%" height="50%">
-  1. Click on LAUNCH
-  1. Click on Open build service
-  1. Click on Build
-  1. Click on MTAR
-  1. Click on Client runtime version
+  <br><img src="resources/apps-build-build-v2.gif" width="50%" height="50%">
+  1. Click on Publish
+  1. Click on Build and Deploy
+  1. Click on Create Configuration
+  1. Click on SAP Build Work Zone
+  1. Set a name
+  1. Click Create
+  1. Select the configuration you've just created
   1. Add a version
   1. Click on BUILD
 - Deploy the App
-  <br><img src="resources/apps-build-deploy.gif" width="50%" height="50%">
-  1. Click on DEPLOY MTA
-  2. Select the endpoint of your sub account. You can get it from the overview page of the subaccount on the SAP BTP Cockpit
-  3. You'll need to authorize. Click AUTHORIZE BTP DEPLOYMENTS
-  4. On the popup click on Sign in with default identity
-  5. Click on AUTHORIZE
-  6. Select org & space
-  7. Click on DEPLOY MTA TO DEV
+  <br><img src="resources/apps-build-deploy-v2.gif" width="50%" height="50%">
+  1. Click on the last build on Build history section 
+  1. Click on Deploy
+  1. Login on BTP
+  1. Do the process and authorize
+  1. Select the Organization and Space of the Build Subaccount
 
 ## Step 7: Configure SAP Build Work Zone
 
